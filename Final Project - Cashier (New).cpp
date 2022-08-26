@@ -81,8 +81,6 @@ int main(){
 		float amount = (float) totalOrder(pilihan[item-1].price, qty); // function
 		
 		printf("Total = Rp. %.1f\n", amount);
-		//masukin total pembelian ke struk
-		fprintf(fp2, "total biaya %d", total);
 				
 		// calculate the total of all order(s)
 		finalTotal += (float)amount;
