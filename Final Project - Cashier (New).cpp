@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 struct Item{
 	char name[50];
@@ -81,6 +82,7 @@ int main(){
 		float amount = (float) totalOrder(pilihan[item-1].price, qty); // function
 		
 		printf("Total = Rp. %.1f\n", amount);
+	
 				
 		// calculate the total of all order(s)
 		finalTotal += (float)amount;
