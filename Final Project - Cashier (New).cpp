@@ -142,7 +142,7 @@ int main(){
 		
 		switch(result){
 			case 0:
-				printf("You don't have any changes!\n");
+				printf("No change!\n");
 				break;
 			default:
 				printf("Here's your change! Rp. %ld\n", result);
@@ -162,7 +162,7 @@ int main(){
 		
 		switch(result){
 			case 0:
-				printf("You don't have any changes!\n");
+				printf("No change!\n");
 				break;
 			default:
 				printf("Here's your change! Rp. %ld\n", result);
